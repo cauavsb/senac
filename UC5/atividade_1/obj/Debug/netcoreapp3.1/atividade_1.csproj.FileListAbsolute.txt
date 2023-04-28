@@ -1,0 +1,13 @@
+C:\Users\User\Documents\senac\UC5\atividade_1\obj\Debug\netcoreapp3.1\atividade_1.csprojAssemblyReference.cache
+C:\Users\User\Documents\senac\UC5\atividade_1\obj\Debug\netcoreapp3.1\atividade_1.AssemblyInfoInputs.cache
+C:\Users\User\Documents\senac\UC5\atividade_1\obj\Debug\netcoreapp3.1\atividade_1.AssemblyInfo.cs
+C:\Users\User\Documents\senac\UC5\atividade_1\obj\Debug\netcoreapp3.1\atividade_1.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\senac\UC5\atividade_1\bin\Debug\netcoreapp3.1\atividade_1.exe
+C:\Users\User\Documents\senac\UC5\atividade_1\bin\Debug\netcoreapp3.1\atividade_1.deps.json
+C:\Users\User\Documents\senac\UC5\atividade_1\bin\Debug\netcoreapp3.1\atividade_1.runtimeconfig.json
+C:\Users\User\Documents\senac\UC5\atividade_1\bin\Debug\netcoreapp3.1\atividade_1.runtimeconfig.dev.json
+C:\Users\User\Documents\senac\UC5\atividade_1\bin\Debug\netcoreapp3.1\atividade_1.dll
+C:\Users\User\Documents\senac\UC5\atividade_1\bin\Debug\netcoreapp3.1\atividade_1.pdb
+C:\Users\User\Documents\senac\UC5\atividade_1\obj\Debug\netcoreapp3.1\atividade_1.dll
+C:\Users\User\Documents\senac\UC5\atividade_1\obj\Debug\netcoreapp3.1\atividade_1.pdb
+C:\Users\User\Documents\senac\UC5\atividade_1\obj\Debug\netcoreapp3.1\atividade_1.genruntimeconfig.cache

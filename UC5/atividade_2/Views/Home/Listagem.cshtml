@@ -1,0 +1,26 @@
+@model List<ItemPedido>
+
+    <h2>Lista de pedidos</h2>
+    <table border="2">
+
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Valor unitário</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (ItemPedido item in Model)
+            {
+                <tr>
+                    <td>@item.descricao</td>
+                    <td>@item.valor_unitario</td>
+                    <td>@item.quantidade</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    
+    <p>Total dos pedidos: @Dados.PedidoAtual.totalizar()</p>

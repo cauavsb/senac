@@ -1,0 +1,14 @@
+@model List<Cadastro>
+
+<h2>Confirmação do agendamento</h2>
+    
+@foreach (Cadastro agen in Model)
+{
+    <p>Nome: @agen.nome</p>
+    <p>Telefone: @agen.telefone</p>
+    <p>Data: @agen.data</p>
+    <p>Animal: @agen.animal</p>
+    <p>Necessidade: @agen.necessidade</p>
+    <p>Obrigado pela preferência! Até logo.</p>
+    <p>----------------------------------------</p>
+}

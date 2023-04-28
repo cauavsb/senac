@@ -1,0 +1,41 @@
+@model Cadastro
+
+<header>
+    <h1>PetVet</h1>
+    <a asp-action="Index">Início</a>
+    <a asp-action="Servicos">Serviços</a>
+    <a asp-action="Agendamento">Agendamento</a>
+</header>
+
+<main>
+    <h2>Pré-Agendamento</h2>
+
+    <form method="post">
+        <p>
+            <label asp-for="nome">Nome: </label>
+            <input asp-for="nome">
+        </p>
+        <p>
+            <label asp-for="telefone">Telefone: </label>
+            <input asp-for="telefone">
+        </p>
+        <p>
+            <label asp-for="data">Data: </label>
+            <input type="date" name="data" id="data">
+        </p>
+        <p>
+            <label asp-for="animal">Animal: </label>
+            <input asp-for="animal">
+        </p>
+        <p>
+            <label asp-for="necessidade">Necessidade: </label>
+            <input asp-for="necessidade">
+        </p>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</main>
+
+<footer>
+    
+</footer>
