@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Mundial do Palmeiras\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\senac\\UC5\\atividade_3\\atividade_3.csproj",
+      "projectUniqueName": "C:\\Users\\Mundial do Palmeiras\\Documents\\web\\senac\\UC5\\atividade_3\\atividade_3.csproj",
       "projectName": "atividade_3",
-      "projectPath": "C:\\Users\\User\\Documents\\senac\\UC5\\atividade_3\\atividade_3.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\senac\\UC5\\atividade_3\\obj\\",
+      "projectPath": "C:\\Users\\Mundial do Palmeiras\\Documents\\web\\senac\\UC5\\atividade_3\\atividade_3.csproj",
+      "packagesPath": "C:\\Users\\Mundial do Palmeiras\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Mundial do Palmeiras\\Documents\\web\\senac\\UC5\\atividade_3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Mundial do Palmeiras\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

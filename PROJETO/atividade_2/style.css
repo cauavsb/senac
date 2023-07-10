@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(221, 221, 111);
+    color: rgb(96, 12, 12);
+}
+h1 {
+    font-size: 30pt;
+    font-weight: bolder;
+}
+img {
+    width: 380px;
+    height: 270px;
+}
+input#especial {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+}

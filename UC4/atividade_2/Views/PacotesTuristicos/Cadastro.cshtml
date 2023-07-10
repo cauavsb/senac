@@ -1,0 +1,30 @@
+@model PacotesTuristicos
+
+<header>
+    <h1>Cadastro de Pacotes Turísticos</h1>
+</header>
+
+<main>
+    <form method="post" asp-action="Cadastro">
+
+        <p>Nome: <input asp-for="nome" required></p>
+
+        <p>Origem: <input asp-for="origem" required></p>
+
+        <p>Destino: <input asp-for="destino" required></p>
+
+        <p>Atrativos: <input asp-for="atrativos" required></p>
+
+        <p>Saída: <input asp-for="saida" required></p>
+
+        <p>Retorno: <input asp-for="retorno" required></p>
+
+        <p>Usuário: <input asp-for="usuario" required></p>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</main>
+
+<footer>
+    <p>@ViewBag.Mensagem</p>
+</footer>

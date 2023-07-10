@@ -1,0 +1,34 @@
+@model List<PacotesTuristicos>
+
+    <table class="table">
+
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Origem</th>
+                <th>Destino</th>
+                <th>Atrativos</th>
+                <th>Saída</th>
+                <th>Retorno</th>
+                <th>Usuário</th>
+                <td>Manutenção</td>
+            </tr>
+        </thead>
+
+        @foreach (PacotesTuristicos pc in Model)
+        {
+            <tr>
+                <td>@pc.nome</td>
+                <td>@pc.origem</td>
+                <td>@pc.destino</td>
+                <td>@pc.atrativos</td>
+                <td>@pc.saida</td>
+                <td>@pc.retorno</td>
+                <td>@pc.usuario</td>
+                <td>
+                    <a href="/PacotesTuristicos/Editar?id=@pc.id">Editar</a> / <a href="/PacotesTuristicos/Deletar?id=@pc.id">Deletar</a>
+                </td>
+            </tr>
+        }
+
+    </table>

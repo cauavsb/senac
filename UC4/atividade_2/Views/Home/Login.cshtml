@@ -1,0 +1,8 @@
+@model Usuario
+
+<h2>Faça login para acessar a manutenção do usuário:</h2>
+<form method="post" asp-action="login">
+    <p>Login: <input asp-for="login"></p>
+    <p>Senha: <input asp-for="senha"></p>
+    <input type="submit" value="Acessar">
+</form>

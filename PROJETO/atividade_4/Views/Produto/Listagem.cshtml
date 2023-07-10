@@ -1,0 +1,34 @@
+@model List<Produto>
+
+    <table class="table">
+
+        <thead>
+            <tr>
+                <th>produto</th>
+                <th>tamanho</th>
+                <th>sexo</th>
+                <th>quantidade_estoque</th>
+                <th>quantidade_venda</th>
+                <th>valor_unitario</th>
+                <th>valor_venda</th>
+                <td>Manutenção</td>
+            </tr>
+        </thead>
+
+        @foreach (Produto p in Model)
+        {
+            <tr>
+                <td>@p.produto</td>
+                <td>@p.tamanho</td>
+                <td>@p.sexo</td>
+                <td>@p.quantidade_estoque</td>
+                <td>@p.quantidade_venda</td>
+                <td>@p.valor_unitario</td>
+                <td>@p.valor_venda</td>
+                <td>
+                    <a href="/Produto/Editar?id=@p.id">Editar</a> / <a href="/Produto/Deletar?id=@p.id">Deletar</a>
+                </td>
+            </tr>
+        }
+
+    </table>
