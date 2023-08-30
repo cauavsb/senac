@@ -1,0 +1,76 @@
+C:\Users\User\Pictures\projeto\atividade_3\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\User\Pictures\projeto\atividade_3\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\User\Pictures\projeto\atividade_3\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\User\Pictures\projeto\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.exe
+C:\Users\User\Pictures\projeto\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.deps.json
+C:\Users\User\Pictures\projeto\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.runtimeconfig.json
+C:\Users\User\Pictures\projeto\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.runtimeconfig.dev.json
+C:\Users\User\Pictures\projeto\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.dll
+C:\Users\User\Pictures\projeto\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.pdb
+C:\Users\User\Pictures\projeto\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.Views.dll
+C:\Users\User\Pictures\projeto\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.Views.pdb
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.csprojAssemblyReference.cache
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.AssemblyInfoInputs.cache
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.AssemblyInfo.cs
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.csproj.CoreCompileInputs.cache
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.RazorAssemblyInfo.cache
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.RazorAssemblyInfo.cs
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.TagHelpers.input.cache
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.TagHelpers.output.cache
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.RazorCoreGenerate.cache
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.RazorTargetAssemblyInfo.cache
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.RazorTargetAssemblyInfo.cs
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.Views.pdb
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\staticwebassets\atividade_3.StaticWebAssets.Manifest.cache
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\staticwebassets\atividade_3.StaticWebAssets.xml
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.dll
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.pdb
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.genruntimeconfig.cache
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.csproj.CopyComplete
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Cadastro.cshtml.g.cs
+C:\Users\User\Pictures\projeto\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Listagem.cshtml.g.cs
+C:\Users\Mundial do Palmeiras\Music\atividade_3\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Mundial do Palmeiras\Music\atividade_3\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Mundial do Palmeiras\Music\atividade_3\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Mundial do Palmeiras\Music\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.exe
+C:\Users\Mundial do Palmeiras\Music\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.deps.json
+C:\Users\Mundial do Palmeiras\Music\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.runtimeconfig.json
+C:\Users\Mundial do Palmeiras\Music\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.runtimeconfig.dev.json
+C:\Users\Mundial do Palmeiras\Music\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.dll
+C:\Users\Mundial do Palmeiras\Music\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.pdb
+C:\Users\Mundial do Palmeiras\Music\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.Views.dll
+C:\Users\Mundial do Palmeiras\Music\atividade_3\bin\Debug\netcoreapp3.1\atividade_3.Views.pdb
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.csprojAssemblyReference.cache
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.AssemblyInfoInputs.cache
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.AssemblyInfo.cs
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.csproj.CoreCompileInputs.cache
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.RazorAssemblyInfo.cache
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.RazorAssemblyInfo.cs
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.TagHelpers.input.cache
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.TagHelpers.output.cache
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.RazorCoreGenerate.cache
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Cadastro.cshtml.g.cs
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\Home\Listagem.cshtml.g.cs
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.RazorTargetAssemblyInfo.cache
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.RazorTargetAssemblyInfo.cs
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.Views.pdb
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\staticwebassets\atividade_3.StaticWebAssets.Manifest.cache
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\staticwebassets\atividade_3.StaticWebAssets.xml
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.dll
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.pdb
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.genruntimeconfig.cache
+C:\Users\Mundial do Palmeiras\Music\atividade_3\obj\Debug\netcoreapp3.1\atividade_3.csproj.CopyComplete

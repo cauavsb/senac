@@ -1,0 +1,50 @@
+﻿@model Produto
+
+<header>
+    <h1>VestKids</h1>
+    <a asp-action="Index">Início</a> |
+    <a asp-action="Cadastro">Cadastro</a>
+</header>
+
+<main>
+    <h2>Cadastro de produto</h2>
+
+    <form method="post">
+        <p>
+            <label asp-for="id">Id: </label>
+            <input asp-for="id">
+        </p>
+        <p>
+            <label asp-for="produto">Produto: </label>
+            <input asp-for="produto">
+        </p>
+        <p>
+            <label asp-for="tamanho">Tamanho: </label>
+            <input asp-for="tamanho">
+        </p>
+        <p>
+            <label asp-for="sexo">Sexo: <input type="radio" asp-for="sexo" value="MASCULINO"> MASCULINO | <input type="radio" asp-for="sexo" value="FEMININO"> FEMININO | <input type="radio" asp-for="sexo" value="UNISSEX"> UNISSEX</label>
+        </p>
+        <p>
+            <label asp-for="quantidade_estoque">Quantidade no estoque: </label>
+            <input asp-for="quantidade_estoque">
+        </p>
+        <p>
+            <label asp-for="quantidade_venda">Quantidade de vendas deste produto: </label>
+            <input asp-for="quantidade_venda">
+        </p>
+        <p>
+            <label asp-for="valor_unitario">Valor unitário de compra: </label>
+            <input asp-for="valor_unitario">
+        </p>
+        <p>
+            <label asp-for="valor_venda">Valor para vender: </label>
+            <input asp-for="valor_venda">
+        </p>
+        <input type="submit" value="Cadastrar">
+    </form>
+</main>
+
+<footer>
+    <p>VestKids</p>
+</footer>

@@ -1,0 +1,17 @@
+@model List<Produto>
+
+<h2>Confirmação do cadastro</h2>
+    
+@foreach (Produto p in Model)
+{
+    <p>Id: @p.id</p>
+    <p>Produto: @p.produto</p>
+    <p>Tamanho: @p.tamanho</p>
+    <p>Sexo: @p.sexo</p>
+    <p>Quantidade no estoque: @p.quantidade_estoque</p>
+    <p>Quantidade de vendas: @p.quantidade_venda</p>
+    <p>Valor unitário: @p.valor_unitario</p>
+    <p>Valor da venda: @p.valor_venda</p>
+    <p>Produto cadastrado com sucesso!</p>
+    <p>----------------------------------------</p>
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "K1TxOIxLmKthIiW5tXhvmaibbnX+SDUGzIsTsZAW8w1/wFaM99l3c+91Hr3AzBlcKJrOS9+d461d7ksiJTWwcQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mundial do Palmeiras\\Documents\\web\\senac\\UC4\\atividade_2\\atividade_2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mundial do Palmeiras\\.nuget\\packages\\mysqlconnector\\2.2.6\\mysqlconnector.2.2.6.nupkg.sha512",
+    "C:\\Users\\Mundial do Palmeiras\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mundial do Palmeiras\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Mundial do Palmeiras\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

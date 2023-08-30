@@ -1,0 +1,36 @@
+@model Produto
+
+<header>
+    <h1>Cadastro de Produto</h1>
+</header>
+
+<main>
+    <form method="post" asp-action="Cadastro">
+
+        <p>Produto: <input asp-for="produto" required></p>
+
+        <p>Tamanho: <input asp-for="tamanho" required></p>
+
+        <p>
+            <label asp-for="sexo">Sexo: 
+                <input type="radio" asp-for="sexo" value="MASCULINO"> MASCULINO | 
+                <input type="radio" asp-for="sexo" value="FEMININO"> FEMININO | 
+                <input type="radio" asp-for="sexo" value="UNISSEX"> UNISSEX
+            </label>
+        </p>
+
+        <p>Quantidade estoque: <input asp-for="quantidade_estoque" required></p>
+
+        <p>Quantidade venda: <input asp-for="quantidade_venda" required></p>
+
+        <p>Valor unitário: <input asp-for="valor_unitario" required></p>
+
+        <p>Valor venda: <input asp-for="valor_venda" required></p>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</main>
+
+<footer>
+    <p>@ViewBag.Mensagem</p>
+</footer>
