@@ -1,0 +1,133 @@
+/* GERAL */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: white;
+    background: linear-gradient(to right, rgb(123, 121, 121), rgba(86, 85, 85, 0)), rgba(44, 44, 44, 0);
+    padding: 10px;
+}
+
+/* HEADER */
+header {
+    background-color: #f2f2f2;
+}
+
+.div1, .div2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.div1 > img, h1  {
+    display: inline-block;
+}
+
+.div1 {
+    padding: 40px;
+}
+
+.div2 {
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0px;
+    padding-right: 15px;
+}
+
+/* NAV */
+ul {
+    padding: 20px;
+}
+
+ul li {
+    padding-right: 40px;
+}
+
+#ult {
+    padding-right: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos das seções */
+section {
+    padding: 20px;
+}
+
+/* Estilos da seção de menu */
+#menu {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    padding: 20px 20px 0 20px;
+    flex-wrap: wrap; 
+}
+
+#menu h2 {
+    text-align: left; 
+    width: 100%;
+}
+
+#menu div {
+    flex: 0 0 calc(33.33% - 100px);
+    margin: 3px; 
+    border: 1px solid black; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+/* Estilos do formulário */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer nav ul {
+    margin: 0;
+}
+
+footer p a {
+    text-decoration: none;
+    color: white;
+    padding-right: 40px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+    }
+}

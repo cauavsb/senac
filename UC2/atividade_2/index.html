@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fornazza</title>
+</head>
+<body>
+    <header>
+        <div class="div1">
+            <h1>Pizzaria Fornazza</h1>
+            <img src="imagens/pizza-header.webp" width="70" height="50" alt="Logo da Pizzaria">
+        </div>
+        
+        <div class="div2">
+            <input type="text" placeholder="Insira seu CEP">
+            <button id="check-cep">Verificar Disponibilidade</button>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Cardápio</a></li>
+            <li id="ult"><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="promocoes">
+        <h2>Promoções do Dia</h2>
+        <!-- Carrossel ou banner de promoções aqui -->
+    </section>
+
+    <section id="menu">
+        <h2>Opções de Pizzas Diferentes</h2>
+
+        <div>
+            <h3>Pizza de HOT-DOG</h3>
+            <img src="imagens/pizza-hot-dog.jpg" width="200" height="150" alt="">
+        </div>
+
+        <div>
+            <h3>Pizza de CORAÇÃO DE FRANGO</h3>
+            <img src="imagens/pizza-coracao.jpg" width="200" height="150" alt="">
+        </div>
+
+        <div>
+            <h3>Pizza de ESTROGONOFE</h3>
+            <img src="imagens/pizza-estrogonofe.jpg" width="200" height="150" alt="">
+        </div>
+
+        <div>
+            <h3>Pizza de CAVIAR</h3>
+            <img src="imagens/pizza-caviar.jpg" width="200" height="150" alt="">
+        </div>
+
+        <div>
+            <h3>Pizza de SUSHI</h3>
+            <img src="imagens/pizza-sushi.jpg" width="200" height="150" alt="">
+        </div>
+    </section>
+
+    <section id="pedido-exp">
+        <h2>Pedido Expresso</h2>
+        <form action="" method="post">
+            <div>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div>
+                <label for="endereco">Endereço: </label>
+                <input type="text" name="endereco" id="endereco" required>
+            </div>
+
+            <div>
+                <label for="telefone">Telefone: </label>
+                <input type="number" name="telefone" id="telefone" required>
+            </div>
+
+            <div>
+                <label for="tamanho">Tamanho: </label>
+                <input type="number" name="tamanho" id="tamanho" required>
+            </div>
+
+            <div>
+                <label for="sabor">Sabor da Pizza: </label>
+                <input type="text" name="sabor" id="sabor" required>
+            </div>
+
+            <div>
+                <label for="pagamento">Forma de pagamento: </label>
+                <input type="radio" id="pagamento-cartao" name="pagamento" value="cartao" required>
+                <label for="pagamento-cartao">Cartão de Crédito</label>
+                <input type="radio" id="pagamento-boleto" name="pagamento" value="boleto" required>
+                <label for="pagamento-boleto">Boleto Bancário</label>
+            </div>
+
+            <div>
+                <textarea name="obs" id="obs" cols="30" rows="10" placeholder="Descreva alguma observação, caso tenha a fazer."></textarea>
+            </div>
+            <div>
+                <button type="submit">Enviar pedido</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Cardápio</a></li>
+                <li id="ult"><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <p>
+            <a href="+5587999999999">Telefone</a>
+            <a href="xxxxxxx@gmail.com">E-mail</a>
+            <a id="ult" href="instagram.com/xxxxx">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
