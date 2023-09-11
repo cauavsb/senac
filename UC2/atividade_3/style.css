@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 h2 {
@@ -70,26 +71,93 @@ section {
 }
 
 /* Estilos da seção de promoções */
-#promocoes {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    text-align: center; 
-    padding: 20px 20px 0 20px;
-    flex-wrap: wrap; 
-}
-
-#promocoes h2 {
-    text-align: left; 
+.slideshow-container {
     width: 100%;
+    position: relative;
+    margin: auto;
 }
 
-#promocoes div {
-    flex: 0 0 calc(33.33% - 100px);
-    margin: 3px; 
-    border: 1px solid black; 
-    padding: 10px; 
-    border-radius: 5px; 
+.dot-container {
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.numbertext {
+    font-size: 12px;
+    color: #f2f2f2;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #f2f2f2;
+    position: absolute;
+    bottom: 60px;
+    width: 100%;
+    text-align: center;
+    padding: 8px 8px;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    margin: 0 2px;
+    display: inline-block;
+    background-color: #bbb;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.6s ease;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.fade {
+    -webkit-animation-name: none;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.active, .dot:hover {
+    color: #717171;
+}
+
+@-webkit-keyframes fade {
+    from { opacity: .4; }
+    to { opacity: 1 ;}
+}
+
+@keyframes fade {
+    from { opacity: .4; }
+    to { opacity: 1 ;}
 }
 
 /* Estilos da seção de menu */

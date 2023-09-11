@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="arquivo.js"></script>
     <title>Fornazza</title>
 </head>
 <body>
@@ -28,19 +29,33 @@
     </nav>
 
     <section id="promocoes">
-        <h2>Promoções do Dia</h2>
-        <div>
-            <h3>Pizza de FRANGO-CATUPIRY</h3>
-            <img src="imagens/pizza-promocao.jpg" width="400" height="300" alt="">
-            <p>TAMANHO: G</p>
-            <button type="button">Comprar</button>
-        </div>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="imagens/pizza-4queijos.jpg" alt="" style="width: 100%; height: 450px; object-fit: cover;">
+                <div class="text">Imagem 1</div>
+            </div>
 
-        <div>
-            <h3>Pizza de CALABRESA</h3>
-            <img src="imagens/pizza-calabresa.jpg" width="400" height="300" alt="">
-            <p>TAMANHO: G</p>
-            <button type="button">Comprar</button>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="imagens/pizza-baiana.jpg" alt="" style="width: 100%; height: 450px; object-fit: cover;">
+                <div class="text">Imagem 2</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="imagens/pizza-caipira.jpg" alt="" style="width: 100%; height: 450px; object-fit: cover;">
+                <div class="text">Imagem 3</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)"> &#10094 </a>
+            <a class="next" onclick="plusSlides(1)"> &#10095 </a>
+            
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide()"></span>
+                <span class="dot" onclick="currentSlide()"></span>
+                <span class="dot" onclick="currentSlide()"></span>
+            </div>
         </div>
     </section>
 
@@ -89,16 +104,19 @@
             <div>
                 <label for="nome">Nome: </label>
                 <input type="text" name="nome" id="nome" required>
+                <div id="nomeError" class="error"></div>
             </div>
 
             <div>
                 <label for="endereco">Endereço: </label>
                 <input type="text" name="endereco" id="endereco" required>
+                <div id="enderecoError" class="error"></div>
             </div>
 
             <div>
                 <label for="telefone">Telefone: </label>
                 <input type="number" name="telefone" id="telefone" required>
+                <div id="telefoneError" class="error"></div>
             </div>
 
             <div>
@@ -109,6 +127,7 @@
                 <label for="tamanho-m">M</label>
                 <input type="radio" id="tamanho-g" name="tamanho" value="tamanho-g" required>
                 <label for="tamanho-g">G</label>
+                <div id="tamanhoError" class="error"></div>
             </div>
 
             <div>
@@ -159,6 +178,7 @@
                 <label for="pagamento-cartao">Cartão de Crédito</label>
                 <input type="radio" id="pagamento-boleto" name="pagamento" value="boleto" required>
                 <label for="pagamento-boleto">Boleto Bancário</label>
+                <div id="pagamentoError" class="error"></div>
             </div>
 
             <div>
