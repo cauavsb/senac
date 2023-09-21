@@ -64,7 +64,7 @@ document.querySelector('form').addEventListener('submit', function (e) {
 var slideIndex = 1;
 var slideIndex2 = 0;
 
-showSlides(slideIndex);
+showSlidesAutomatic();
 
 function plusSlides(n) {
     showSlides(slideIndex += n)
