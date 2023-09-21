@@ -1,17 +1,19 @@
 /* Geral */
-
 * {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
-body {
-    background-image: linear-gradient(to bottom, #65AEF7, #1C88F4, #156CC2);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background-color: #F1F2F7;
+}
+
+main {
+    position: relative;
     height: 100vh;
     width: 100vw;
 }
@@ -19,12 +21,13 @@ body {
 /* Página LOGIN */
 
 .login {
+    background-image: linear-gradient(to bottom, #65AEF7, #1C88F4, #156CC2);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100vh;
-    max-height: 100vh; 
+    width: 100vw;
 }
 
 .login > div {
@@ -34,8 +37,10 @@ body {
     align-items: center;
     border: solid 2px;
     border-radius: 20px;
-    height: 70vh;
-    width: 50vh;
+    min-height: 558px;
+    overflow-y: auto;
+    min-width: 40%;
+    max-width: 80%;
 }
 
 .login > div div {
@@ -69,23 +74,18 @@ body {
 /* PÁGINA PRINCIPAL */
 
 .principal-2 {
-    display: flex;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 
 .principal-2-1 {
-    width: 20vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-color: white;
 }
 
 .principal-2-1 img {
-    width: 200px;
-    height: 200px;
     margin: 0 auto;
+    width: 100px;
+    height: 100px;
 }
 
 .principal-2-1 section {
@@ -112,26 +112,22 @@ body {
     color: black;
 }
 
-.principal-2-2 {
-    width: 80vw;
-    height: 100vh;
-}
-
 .principal-2-2-1 {
     background-color: #18244D;
-    height: 30vh;
+    width: 100vw;
 }
 
 .principal-2-2-1 h1 {
     color: white;
     padding-left: 30px;
     font-size: 40px;
+    padding-bottom: 30px;
 }
 
 .principal-2-2-1-1 {
+    padding: 30px;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
 }
 
 .principal-2-2-1-1 a {
@@ -140,25 +136,23 @@ body {
     font-weight: 700;
 }
 
-.principal-2-2-2 {
-    background-color: #F1F2F7;
-    height: 70vh;
-}
-
 /* PÁGINA CONTEÚDO VIVENCIADO */
 
 .conteudo-2-2-2-1 {
-    width: 40vw;
+    width: 80vw;
     background-color: white;
-    display: flex;
-    justify-content: space-between;
     margin: 0 auto;
-    padding: 40px;
+    padding: 20px;
+}
+
+.conteudo-2-2-2-1-1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 table {
     border-collapse: collapse;
-    width: 300px;
+    width: 250px;
     margin: 0 auto;
 }
 
@@ -219,19 +213,12 @@ th {
 }
 
 .conteudo-2-2-2-2-1 {
-    width: 25vw;
-    height: 50vh;
     background-color: white;
-    margin: 20px;
+    margin: 10px;
 }
 
 .conteudo-2-2-2-2-1-2 ul li {
-    margin-left: 15px;
-}
-
-.conteudo-2-2-2-2 {
-    display: flex;
-    flex-direction: row;
+    margin-left: 17px;
 }
 
 .conteudo-2-2-2-2-2-1, .conteudo-2-2-2-2-2-2, .conteudo-2-2-2-2-2-3 {
