@@ -12,17 +12,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    height: 100vh;
+    width: 100vw;
 }
 
 /* Página LOGIN */
-
-main {
-    margin-bottom: 30px;
-}
 
 .login {
     display: flex;
@@ -68,6 +62,192 @@ main {
     height: 30px;
 }
 
-p {
+.login p {
+    text-align: center;
+}
+
+/* PÁGINA PRINCIPAL */
+
+.principal-2 {
+    display: flex;
+    width: 100%;
+}
+
+.principal-2-1 {
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.principal-2-1 img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.principal-2-1 section {
+    text-align: center;
+}
+
+.principal-2-1 section h1 {
+    padding-bottom: 10px;
+}
+
+.principal-2-1 section h2 {
+    padding-bottom: 10px;
+}
+
+.principal-2-1 section ul li {
+    list-style: none;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.principal-2-1 section ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.principal-2-2 {
+    width: 80vw;
+    height: 100vh;
+}
+
+.principal-2-2-1 {
+    background-color: #18244D;
+    height: 30vh;
+}
+
+.principal-2-2-1 h1 {
+    color: white;
+    padding-left: 30px;
+    font-size: 40px;
+}
+
+.principal-2-2-1-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.principal-2-2-1-1 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.principal-2-2-2 {
+    background-color: #F1F2F7;
+    height: 70vh;
+}
+
+/* PÁGINA CONTEÚDO VIVENCIADO */
+
+.conteudo-2-2-2-1 {
+    width: 40vw;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    width: 30px;
+}
+
+td a {
+    text-decoration: none;
+    color: black;
+}
+
+th {
+    background-color: #eee;
+}
+
+.sem-aula {
+    background-color: #8898AA;
+}
+
+.sa::marker {
+    color: #8898AA;
+}
+
+.concluido {
+    background-color: #2DCE89;
+}
+
+.c::marker {
+    color: #2DCE89;
+}
+
+.incompleto {
+    background-color: #D2B000;
+}
+
+.i::marker {
+    color: #D2B000;
+}
+
+.sem-lancamento {
+    background-color: #F5365C;
+}
+
+.sl::marker {
+    color: #F5365C;
+}
+
+.feriado {
+    background-color: #5E72E4;
+}
+
+.f::marker {
+    color: #5E72E4;
+}
+
+.conteudo-2-2-2-2-1 {
+    width: 25vw;
+    height: 50vh;
+    background-color: white;
+    margin: 20px;
+}
+
+.conteudo-2-2-2-2-1-2 ul li {
+    margin-left: 15px;
+}
+
+.conteudo-2-2-2-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.conteudo-2-2-2-2-2-1, .conteudo-2-2-2-2-2-2, .conteudo-2-2-2-2-2-3 {
+    padding: 30px;
+    margin: 10px;
+}
+
+.conteudo-2-2-2-2-2-1 {
+    background-color: #F75676;
+}
+
+.conteudo-2-2-2-2-2-2 a {
+    text-decoration: none;
+}
+
+.conteudo-2-2-2-2-2-3 {
+    background-color: white;
     text-align: center;
 }
